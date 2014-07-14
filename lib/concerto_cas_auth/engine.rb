@@ -19,6 +19,9 @@ module ConcertoCasAuth
       @plugin_info ||= plugin_info_class.new do
         # Add configuration options here as needed.
         add_route("concerto_cas_auth", ConcertoCasAuth::Engine)
+
+        add_view_hook "ApplicationController", :signin_hook, :partial => "concerto_cas_auth/omniauth_cas/signin"
+
       end 
     end 
   end
