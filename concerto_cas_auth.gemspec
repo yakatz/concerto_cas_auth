@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = ConcertoCasAuth::VERSION
   s.authors     = ["Gabe Perez"]
   s.email       = ["perez283@gmail.com"]
-  s.homepage    = "concerto-signage.org"
+  s.homepage    = "http://concerto-signage.org"
   s.summary     = "Provides user authentication using CAS"
   s.description = "Authorize Concerto users with CAS"
   s.license     = "Apache-2.0"
